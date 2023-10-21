@@ -325,20 +325,28 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__html {
-  width: 95%;
+.skills__dart {
+  width: 80%;
+}
+
+.skills__flutter {
+  width: 70%;
 }
 
 .skills__css {
-  width: 85%;
+  width: 40%;
 }
 
-.skills__js {
-  width: 65%;
+.skills__html {
+  width: 40%;
 }
 
 .skills__ux {
-  width: 85%;
+  width: 45%;
+}
+
+.skills__react {
+  width: 40%;
 }
 
 .skills__img {
