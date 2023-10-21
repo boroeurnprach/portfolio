@@ -325,6 +325,23 @@ img {
   z-index: var(--z-back);
 }
 
+.skills__photoshop {
+  width: 60%;
+}
+
+.skills__illustator {
+  width: 70%;
+}
+
+.skills__gimp {
+  width: 40%;
+}
+
+.skills__inkscape {
+  width: 40%;
+}
+
+
 .skills__dart {
   width: 80%;
 }
