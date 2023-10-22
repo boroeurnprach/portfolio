@@ -590,7 +590,7 @@ img {
 @media (max-width: 768px) {
   .home {
     position: relative;
-    row-gap: 3rem;
+    row-gap: 1rem;
     padding: 1rem 0 5rem;
   }
 
