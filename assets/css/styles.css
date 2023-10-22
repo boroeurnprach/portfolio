@@ -607,19 +607,23 @@ img {
 
   }
 
-  .home__img {
-    display: none;
-  }
 
   .home__social {
     flex-direction: row;
     justify-content: center;
 
 
+
   }
 
   .home__social-icon {
     margin: 0 25px;
+  }
+
+  .home__img {
+    order: -1;
+    position: relative;
+    width: auto;
   }
 
 }
