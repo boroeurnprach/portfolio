@@ -27,6 +27,7 @@
   --z-fixed: 100;
 }
 
+
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
@@ -468,7 +469,6 @@ img {
 
   .home__img {
     width: 300px;
-    bottom: 25%;
   }
 
   .about__container {
@@ -590,7 +590,7 @@ img {
 @media (max-width: 768px) {
   .home {
     position: relative;
-    row-gap: 1rem;
+    row-gap: 4rem;
     padding: 1rem 0 5rem;
   }
 
@@ -599,13 +599,14 @@ img {
     align-items: center;
     text-align: center;
     justify-content: center;
+
   }
 
   .home__social {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
   }
 
   .home__social .home__img {
@@ -630,6 +631,9 @@ img {
     order: -1;
     position: relative;
     width: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
 
   .home__title {
@@ -638,10 +642,18 @@ img {
   }
 
 
+
+  .home__blob {
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+
+
+  }
+
+
+
 }
-
-
-
 
 span {
   color: var(--first-color);
